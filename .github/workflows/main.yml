@@ -26,3 +26,4 @@ jobs:
       # Build and test your app with Maven
       - name: Build and test with Maven
         run: mvn clean install # or mvn clean package if you just want to package without running tests
+        working-directory: ./simple-api
